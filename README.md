@@ -27,7 +27,6 @@ During iteration, the code traverses back through elements previous to the curre
 **Figure 2: There can be only value for greaesttDifference in the method, Differentiator.GreatestDifference().**  
 
 The `greatestDifference` that is in force, after all the elements in the submitted array have be examined, is the value returned by the method.
-
 ###Opportunities for Improvement
 This version is preliminary and meets the conditions described in the purpose at the beginning of this README. The method has been verified according to the unit tests in the Test Project that is part of this repository's solution.
 
