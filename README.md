@@ -16,8 +16,10 @@ This method, GreatestDifference(int[] numbers) accepts an array of at least two 
 
 The way the method GreatestDifference(int[] numbers) works is by an algorithm that iterates through each element in the submitted array. 
 
-
+![](https://github.com/reselbob/Demonstrator/blob/master/images/GetGreatestDifference-01.jpeg?raw=true)
 During iteration, the code traverses by through elements previous the current element in iteration. The code subtracts a previous element from the current "element of interest" to produce a difference. That difference is compared to last GreatDifference discovered. (GreatestDifference is a value global to the method.) If this new difference is larger than the current GreatestDifference, the new value is assigned to GreatDifference.
+
+![](https://github.com/reselbob/Demonstrator/blob/master/images/GetGreatestDifference-02.jpeg?raw=true)
 
 The GreatestDifference that is in force, after all the elements in the submitted array have be examined is the value returned by the method.
 
