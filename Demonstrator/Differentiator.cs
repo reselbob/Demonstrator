@@ -30,7 +30,7 @@ namespace Reselbob.Demonstrator
             // elements, moving down through previous elements and 
             //subtracting the given previous element
 
-            var biggestDiff = 0; //The biggest number comparator
+            var greatestDifference = 0; //The biggest number comparator
             for (var i = 1; i < numbers.Length; i++) //this is the top of the inspection
             {
                 //Go down to all the elements before this one and diff according to the top one
@@ -38,11 +38,11 @@ namespace Reselbob.Demonstrator
                 do
                 {
                     var diff = numbers[i] - numbers[downCounter];
-                    if (diff > biggestDiff) biggestDiff = diff;
+                    if (diff > greatestDifference) greatestDifference = diff;
                     downCounter--;
                 } while (downCounter >= 0);
             }
-            return biggestDiff;
+            return greatestDifference;
         }
     }
 }
