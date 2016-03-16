@@ -2,7 +2,6 @@
 The Demonstrator Project is a C# Solution intended to be a showcase for demonstration code. Presently the project contains one item to present, the class, Differentitator.
 
 ##Working with the class, Differentiator
-
 Differentiator is a demonstration class that publishes a method, `GreatestDifference(int[] numbers)`. The purpose of `Differentiator.GreatestDifference()` is to meet the following requirement:
 
 > Write a function that given an array of n integers, returns the largest difference in the array between a value and another value with a smaller index in the array.

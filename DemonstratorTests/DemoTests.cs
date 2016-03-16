@@ -66,7 +66,7 @@ namespace Reselbob.Demonstrator.Tests
         /// numbers in which the numbers are in random
         /// sequence, and the array includes some
         /// negative numbers
-        /// </summary
+        /// </summary>
         [TestMethod]
         public void DiffHardCodedArrayFourTest()
         {
@@ -84,7 +84,7 @@ namespace Reselbob.Demonstrator.Tests
         /// numbers in which the numbers are in random
         /// sequence, and the array includes some
         /// negative numbers
-        /// </summary
+        /// </summary>
         [TestMethod]
         public void DiffHardCodedArrayFiveTest()
         {
